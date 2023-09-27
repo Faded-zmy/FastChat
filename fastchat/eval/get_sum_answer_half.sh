@@ -1,0 +1,2 @@
+# 0808
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python get_lora_model_answer_round_zmy.py  --model-id vicuna_v1.1 --base-model-path /ai_jfs/models/public_models/llama-2/llama-2-7b-chat/  --lora-path /ai_jfs/mengying/model/summary_0815_half_lora_B16_L2e-5  --question-file /ai_jfs/mengying/data/sum/eval_question_20230705_gpu2.json --answer-file /ai_jfs/mengying/data/sum/eval_llama2_half_answer_0815.jsonl  --num-gpus 8 --max-token 4096
